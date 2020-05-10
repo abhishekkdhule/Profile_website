@@ -1,0 +1,324 @@
+
+.wrapper{
+    background-color:black;
+    width:90%;
+    margin:0 auto;
+}
+header{
+    position: sticky;
+    top:0;
+    z-index:1;
+    /* background-color: blue; */
+    width:100%;
+}
+.nav-links{
+    /* position: sticky; */
+    top:0;
+    margin-top: 20px;
+    padding: 1em 0;
+    background-color:rgb(15, 15, 15);
+    display: flex;
+    justify-content: space-around;
+    }
+li{
+    margin:15px auto;
+}
+.text{
+    font-size: 20px;
+    font-family: 'Acme';
+    text-decoration: none;
+    border: none;
+    color:white;
+}
+.text:hover{
+    color:rgb(67, 245, 111); 
+}
+#welcome-section{
+    display: flex;
+    width:90%;
+    padding:0 auto;
+    margin: 1em auto;
+    font-family: 'Acme';
+    font-size: 6vw;
+    color: white;
+    /* background-color:red; */
+    overflow: hidden;
+}
+
+
+.inner-intro{
+    width: 60%;
+}
+.image-box{
+    /* background-image: url("abhi.heic"); */
+    display:flex;
+    align-items: center;
+    background-size: cover;
+    width:40%;
+}
+.image{
+    margin: 10px auto;
+    width:90%;
+    border-radius: 8px;
+    opacity: 0.9;
+}
+.image:hover{
+    box-shadow: 0 5px 15px gray;
+}
+
+
+.project-image{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    width:80%;
+    border-radius: 3px;
+    opacity:0.9;
+}
+.submit{
+    margin-left: 10px;
+    background-color: rgb(67, 245, 111);
+    font-size: 20px;
+    font-family: 'Acme';
+    border:none;
+    border-radius: 50px;
+    width: 7em;
+    padding: 10px;
+    outline:none;
+}
+.submit-about{
+    margin-left: 10px;
+    background-color: rgb(67, 245, 111);
+    font-size: 20px;
+    font-family: 'Acme';
+    border:none;
+    border-radius: 50px;
+    width: 7em;
+    padding: 10px;
+    outline:none;
+}
+.submit:hover{
+    background-color:rgb(0, 255, 42);
+    box-shadow:0px 5px 5px rgba(0, 200, 42, 0.4);
+    transform: scale(1.05);
+}
+.submit-about:hover{
+    background-color:rgb(0, 255, 42);
+    box-shadow:0px 5px 5px rgba(0, 200, 42, 0.4);
+    transform: scale(1.05);
+}
+html {
+  scroll-behavior: smooth;
+}
+.all-box{
+    padding:20px 20px 20px 20px;
+    color: white;
+    border-radius:7px;
+    /* margin: 10px 80px 40px 80px; */
+    margin:1em auto;
+    width:90%;
+    background-color:black;   
+}
+.certi-image{
+    width:100%;
+    height:200px;
+}
+.inner-certi{
+    /* background-color: white; */
+    /* height: 200px; */
+    margin-top: 10px;
+    height: auto;
+    display:flex;
+    justify-content: space-between;
+}
+.certificate{
+    margin-top: 10px;
+    height:150px;
+    width: 300px;
+    background-color: black;
+}
+.inner-skills{
+    /* background-color: white; */
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+
+}
+.skill-box{
+    width:250px;
+    /* background-color: red; */
+}
+.all-box .inner-project{
+    display:flex;
+}
+
+.contact-box{
+    margin: 20px auto;
+    display:flex;
+    padding: 0 20%;
+    justify-content: space-evenly;
+}
+.contact-icon{
+    font-size: 40px;
+    color:white;
+}
+.contact-icon:hover{
+    color: rgb(67, 245, 111);
+}
+h1{
+    margin-bottom:20px;
+    color:white;
+    display: inline;
+    font-family:'Acme';
+    font-size: 50px;
+    text-decoration: underline rgb(0, 255, 42);
+}
+h2{
+    font-family:'Antic';
+    font-size: 30px;
+    text-decoration: underline rgb(192, 236, 71);
+}
+h3{
+    font-family:'Antic';
+    font-size: 25px;
+    text-decoration: underline rgb(192, 236, 71);
+}
+.text-content{
+    font-family:'Antic';
+    font-size: 20px;
+    text-align: justify
+}
+.project-text-div{
+    width:60%;
+    /* background-color: antiquewhite; */
+
+}
+.project-image-div{
+    width:40%;
+}
+/* mobileview */
+/* h1{
+    text-decoration: none;
+    position: relative;
+}
+h1::before{
+    content: '';
+    position: absolute;
+    width:0;
+    height:3px;
+    background-color:rgb(0, 255, 42);
+    bottom:0;
+    border-radius: 100px;
+    transition:.4s ease-out;
+}
+.all-box:hover h1::before{
+    /* background-color: red; 
+    width:100%;
+}
+.mobile-view{
+    /* display:none; 
+    color:black;
+    
+}
+.hamburger{
+    /* background-color: red; 
+    cursor: pointer;
+    margin-top:2em;
+}
+.hamburger .line{
+    width:35px;
+    height:4px;
+    background-color: white;
+    position: relative;
+    margin-bottom: 5px;
+    transition:.4s ;
+}
+.active .line{
+    margin:-4px;
+}
+.active .line1 {
+    /* background-color: coral; 
+    transform: rotate(45deg);
+
+}
+.active .line2{
+    opacity: 0;
+}
+.active .line3{
+    transform: rotate(-45deg);
+
+} */
+/* https://www.w3schools.com/howto/howto_js_collapse_sidepanel.asp */
+@media (max-width:720px){
+    #welcome-section{
+        display:flex;
+        flex-direction:column-reverse;  
+        align-items: center;
+        
+    }
+    .inner-intro{
+        width:100%;
+        text-align: center;
+        margin-top:30px;
+        font-size: 10vw;
+    }
+    .image-box{
+        width:90%;
+    }
+    header{
+        display:none;
+    }
+    .submit-about{
+        display: none;
+    }
+    .submit{
+        margin: 0 25%;
+    }
+    .text-content{
+        padding: 0;
+    }
+    .inner-project{
+        display:flex;
+        flex-direction:column-reverse;
+        align-items: center;
+        padding: 0px;
+    }
+    .inner-certi{
+        flex-direction: column;
+        
+    }
+    .certificate{
+        margin: 50px auto;
+    }
+    .inner-skills{
+        flex-direction: column;
+    }
+    .covid19{
+        flex-direction: column;
+        padding: 0 auto;
+    }
+    .covid19-img{
+        margin: 0 auto;
+    }
+    .project-image{
+        width: 100%;
+        margin-left: 0;
+    }
+    .project-text-div{
+        width: 100%;
+    }
+    .project-image-div{
+        width: 100%;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .contact-box{
+        margin: 30px 0;
+        padding:0;
+    }
+    .contact-icon{
+        font-size: 30px;
+
+    }
+    }
